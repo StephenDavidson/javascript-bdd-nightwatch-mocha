@@ -9,7 +9,7 @@ npm install
 ## Running tests
 
 ```bash
-npm test #using npm, will default to firefox
+npm test #firefox
 node_modules/.bin/nightwatch #firefox
 node_modules/.bin/nightwatch --env chrome #chrome
 ```
