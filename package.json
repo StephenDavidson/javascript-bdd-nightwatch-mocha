@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "lint": "jshint",
-    "test": "node_modules/.bin/nightwatch",
+    "test": "node_modules/.bin/nightwatch --env firefox",
     "posttest": "npm run lint"
   },
   "dependencies": {
