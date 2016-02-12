@@ -1,4 +1,6 @@
 # javascript-bdd-cucumber-nightwatch-mocha
+[![Build Status](https://travis-ci.org/StephenDavidson/javascript-bdd-nightwatch-mocha.svg?branch=master)](https://travis-ci.org/StephenDavidson/javascript-bdd-nightwatch-mocha)
+
 Example of nightwatch with mocha.
 
 ## Getting started
