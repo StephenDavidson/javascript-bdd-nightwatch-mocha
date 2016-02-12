@@ -9,13 +9,13 @@ npm install
 ## Running tests
 
 ```bash
-npm test #firefox
-node_modules/.bin/nightwatch #firefox
-node_modules/.bin/nightwatch --env chrome #chrome
+npm test #chrome
+node_modules/.bin/nightwatch #chrome
+node_modules/.bin/nightwatch --env firefox #firefox
 ```
 
 If nightwatch is globally installed:
 ```bash
 nightwatch
-nightwatch --env chrome
+nightwatch --env firefox
 ```

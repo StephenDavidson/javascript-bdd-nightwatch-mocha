@@ -30,14 +30,6 @@ module.exports = {
         path: 'screenshots/default'
       },
       desiredCapabilities: {
-        browserName: 'firefox',
-        javascriptEnabled: true,
-        acceptSslCerts: true
-      }
-    },
-
-    chrome: {
-      desiredCapabilities: {
         browserName: 'chrome',
         javascriptEnabled: true,
         acceptSslCerts: true
@@ -46,6 +38,14 @@ module.exports = {
         cli_args : {
           'webdriver.chrome.driver': chromedriver.path
         }
+      }
+    },
+
+    firefox: {
+      desiredCapabilities: {
+        browserName: 'firefox',
+        javascriptEnabled: true,
+        acceptSslCerts: true
       }
     }
   }
